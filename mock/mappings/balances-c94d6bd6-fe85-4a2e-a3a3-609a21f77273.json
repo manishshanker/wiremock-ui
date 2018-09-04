@@ -1,0 +1,17 @@
+{
+  "id" : "c94d6bd6-fe85-4a2e-a3a3-609a21f77273",
+  "request" : {
+    "urlPath" : "/balance",
+    "method" : "GET",
+    "headers" : { },
+    "queryParameters" : { },
+    "cookies" : { },
+    "bodyPatterns" : [ ]
+  },
+  "response" : {
+    "status" : 200,
+    "headers" : { }
+  },
+  "uuid" : "c94d6bd6-fe85-4a2e-a3a3-609a21f77273",
+  "insertionIndex" : 1
+}

@@ -7,7 +7,7 @@ import { IAction } from '../../../store'
 import { loadState, loadStateFinished } from './actions'
 import { CoreActionTypes } from './types'
 
-export const loadStateEpic: Epic<IAction, any> = action$ =>
+export const loadStateEpic: Epic<any, any> = action$ =>
     action$.ofType(CoreActionTypes.LOAD_STATE)
         .pipe(
             mergeMap((action: typeof loadState) => {

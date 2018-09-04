@@ -20,6 +20,13 @@ class AppBar extends React.Component<IAppBarProps> {
         })
     }
 
+    saveAllSettings = () => {
+        // TEMP
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', 'http://localhost:8080/__admin/mappings/save', true);
+        xhr.send();
+    }
+
     visitGithub = () => {
         window.open('https://github.com/plouc/wiremock-ui', '_blank')
     }
@@ -38,6 +45,19 @@ class AppBar extends React.Component<IAppBarProps> {
                     wiremock:UI
                 </AppName>
                 <Icons>
+                    <Button
+                        style={{ marginRight: 12 }}
+                        icon={
+                            <Settings
+                                size={16}
+                                color={theme.colors.muted}
+                                style={{ marginRight: 6 }}
+                            />
+                        }
+                        onClick={this.saveAllSettings}
+                    >
+                        Save All
+                    </Button>
                     <Button
                         style={{ marginRight: 12 }}
                         icon={

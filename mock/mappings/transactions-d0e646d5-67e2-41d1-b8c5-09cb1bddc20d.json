@@ -1,0 +1,18 @@
+{
+  "id" : "d0e646d5-67e2-41d1-b8c5-09cb1bddc20d",
+  "request" : {
+    "urlPath" : "/transactions",
+    "method" : "GET",
+    "headers" : { },
+    "queryParameters" : { },
+    "cookies" : { },
+    "bodyPatterns" : [ ]
+  },
+  "response" : {
+    "status" : 200,
+    "headers" : { },
+    "body": "{sdfsfdsfsddsf: '1'}"
+  },
+  "uuid" : "d0e646d5-67e2-41d1-b8c5-09cb1bddc20d",
+  "insertionIndex" : 0
+}
